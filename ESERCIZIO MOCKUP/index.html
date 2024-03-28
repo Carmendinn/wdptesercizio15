@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img id="logo" src="assets/logo.svg" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Browse-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Browse
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          </li>
+          <!--Landings-->
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Landings
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <!--Pages-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <!--Account-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Account
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--Bell+profile-->
+    <div class="destra d-flex" role="search">
+      <a href="https://">
+        <span>
+          <i id="bell" class="fa-regular fa-bell me-4"></i>
+        </span>
+      </a>
+      <a class="account" href="https://">
+      </a>
+    </div>
+  </nav>
+  <!--Hero-->
+  <div class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 text-white align-items-center">
+          <div class="text mt-5">
+            <h1 class="title mt-5">Welcome Web Students!</h1>
+          </div>
+          <div class="text mt-5">
+            <h4 class="payoff">Hand-picked Instructor and expertly crafted courses, designed for the modern students and
+              enterpreneur.</h4>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg mt-5">Browse Courses</button>
+          <button type="button" class="btn btn-secondary btn-lg mt-5">Are You Instructor?</button>
+        </div>
+        <div class="col-6">
+          <img src="assets/hero-img.png" alt="hero-img">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Underhero-->
+  <div class="sottohero">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
+          <div class="circle rounded-circle d-flex">
+            <i class="fa-solid fa-video"></i>
+            <div class="icon">
+              <h5>30.000 online courses</h5>
+              <span>
+                Enjoy a variety of fresh topics
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <div class="circle rounded-circle d-flex">
+            <i class="fa-solid fa-user-group"></i>
+            <div class="icon">
+              <h5>Expert instruction</h5>
+              <span>
+                Find the right instructor for you
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <div class="circle rounded-circle d-flex">
+            <i class="fa-regular fa-clock"></i>
+            <div class="icon">
+              <h5>Lifetime access</h5>
+              <span>
+                Learn your schedule
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--RECOMMENDED-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="recommended col-sm-6"><b>Recommended to you</b></div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="carousel">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner d-flex  col-lg-12">
+            <div class="carousel-item active d-flex gap-2">
+              <!--GRAPHQl-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-graphql.jpg" class="card-img-top" alt="graphql">
+                <div class="card-body">
+                  <h5 class="card-title">GraphQL: introduction to
+                    graphQL for beginners</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <h5>2.5</h5>
+                    <p class="paragrafo">(1,500)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$500</h3>
+                    <h4>$600</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto"></div>
+                    <div class="name">Brooklyn Simmons</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <!--JAVASCRIPT-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-javascript.jpg" class="card-img-top" alt="javascript">
+                <div class="card-body">
+                  <h5 class="card-title">A Complete Beginner's
+                    Guide to JavaScript</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>4h 10m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <h5>3.5</h5>
+                    <p class="paragrafo">(7,500)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$700</h3>
+                    <h4>$850</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto2"></div>
+                    <div class="name">Jenny Wilson</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <!--NODE JS-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="nodejs">
+                <div class="card-body">
+                  <h5 class="card-title">Beginning Node.js, Express
+                    & MongoDB Development</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>2h 00m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Intermediate</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <h5>4.0</h5>
+                    <p class="paragrafo">(15,700)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$800</h3>
+                    <h4>$950</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto3"></div>
+                    <div class="name">Sina Ray</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <!--LARAVEL-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-laravel.jpg" class="card-img-top" alt="laravel">
+                <div class="card-body">
+                  <h5 class="card-title">Laravel: The Ultimate
+                    Beginner's Guide to Learn</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>1h 00m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Beginner</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <h5>4.5</h5>
+                    <p class="paragrafo">(2,500)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$170</h3>
+                    <h4>$200</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto4"></div>
+                    <div class="name">Sobo Rikhan</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MOST POPULAR-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="recommended col-sm-6"><b>Most Popular</b></div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="carousel">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner d-flex  col-lg-12">
+            <div class="carousel-item active d-flex gap-2">
+              <!--HTML5-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-html.jpg" class="card-img-top" alt="graphql">
+                <div class="card-body">
+                  <h5 class="card-title">HTML Full Course - Build a
+                    Website Tutorial</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>3h 16m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Beginner</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <h5>3.0</h5>
+                    <p class="paragrafo">(1,600)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$550</h3>
+                    <h4>$700</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto5"></div>
+                    <div class="name">Miston Wilson</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <!--JAVASCRIPT-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-javascript.jpg" class="card-img-top" alt="javascript">
+                <div class="card-body">
+                  <h5 class="card-title">A Complete Beginner's
+                    Guide to JavaScript</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>4h 10m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <h5>3.5</h5>
+                    <p class="paragrafo">(7,500)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$700</h3>
+                    <h4>$850</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto2"></div>
+                    <div class="name">Jenny Wilson</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <!--NODE JS-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="nodejs">
+                <div class="card-body">
+                  <h5 class="card-title">Beginning Node.js, Express
+                    & MongoDB Development</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>2h 00m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Intermediate</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <h5>4.0</h5>
+                    <p class="paragrafo">(15,700)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$800</h3>
+                    <h4>$950</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto3"></div>
+                    <div class="name">Sina Ray</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <!--REACT-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-react.jpg" class="card-img-top" alt="react">
+                <div class="card-body">
+                  <h5 class="card-title">How to easily create a
+                    website with React</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>3h 55m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <h5>4.5</h5>
+                    <p class="paragrafo">(2,500)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$600</h3>
+                    <h4>$750</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto6"></div>
+                    <div class="name">April Noms</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+     <!--TRENDING-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="recommended col-sm-6"><b>Trending</b></div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="carousel">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner d-flex  col-lg-12">
+            <div class="carousel-item active d-flex gap-2">
+              <!--HTML5-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-gatsby.jpg" class="card-img-top" alt="gatsby">
+                <div class="card-body">
+                  <h5 class="card-title">Revolutionize how you build
+                    the web</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>1h 46m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Intermediate</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <h5>2.0</h5>
+                    <p class="paragrafo">(16,500)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$800</h3>
+                    <h4>$850</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto2"></div>
+                    <div class="name">Jenny Wilson</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <!--HTML5-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-html.jpg" class="card-img-top" alt="html5">
+                <div class="card-body">
+                  <h5 class="card-title">HTML Full Course - Build a
+                    Website Tutorial</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>3h 16m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Beginner</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <h5>3.0</h5>
+                    <p class="paragrafo">(1,600)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$500</h3>
+                    <h4>$700</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto5"></div>
+                    <div class="name">Miston Wilson</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <!--NODE JS-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="nodejs">
+                <div class="card-body">
+                  <h5 class="card-title">Beginning Node.js, Express
+                    & MongoDB Development</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>2h 00m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Intermediate</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <h5>4.0</h5>
+                    <p class="paragrafo">(15,700)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$800</h3>
+                    <h4>$950</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto3"></div>
+                    <div class="name">Sina Ray</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <!--LARAVEL-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/course-laravel.jpg" class="card-img-top" alt="laravel">
+                <div class="card-body">
+                  <h5 class="card-title">Laravel: The Ultimate
+                    Beginner's Guide to Learn</h5>
+                </div>
+                <div class="linea1">
+                  <div class="icona">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>1h 00m</p>
+                  </div>
+                  <div class="icona">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <p>Beginner</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <h5>4.5</h5>
+                    <p class="paragrafo">(2,500)</p>
+                  </div>
+                  <div class="money">
+                    <h3>$170</h3>
+                    <h4>$220</h4>
+                  </div>
+                  <div class="profile">
+                    <div class="foto4"></div>
+                    <div class="name">Sobo Rikhan</div>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--footer-->
+<div class="container col-12">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">© 2024 Geeks, All Rights Reserved.</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Privacy</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Terms</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Feedback</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Support</a></li>
+    </ul>
+  </footer>
+</div>
+  <script src="https://kit.fontawesome.com/5581abaa8c.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
